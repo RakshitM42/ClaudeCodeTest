@@ -12,13 +12,18 @@ python3 tictactoe.py    # terminal tic-tac-toe
 
 ## Git Workflow
 
-After every change, commit and push to GitHub:
+**Commit and push after every meaningful unit of work** — feature added, bug fixed, file created. Never leave completed work uncommitted. This ensures we can always revert to a working state and never lose progress.
 
 ```bash
 git add <file>
 git commit -m "descriptive message"
 git push
 ```
+
+Commit message rules:
+- Use the imperative mood: "Add enemy dash mechanic", not "Added" or "Adding"
+- First line is a short summary (≤72 chars); add a body if the why isn't obvious
+- One logical change per commit — don't bundle unrelated edits
 
 Remote: https://github.com/RakshitM42/ClaudeCodeTest
 
